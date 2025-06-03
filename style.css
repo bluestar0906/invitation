@@ -1,7 +1,8 @@
 body {
   margin: 0;
   font-family: 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
-  background: linear-gradient(to bottom, #FFFDF9, #EFFFFF);
+  background: linear-gradient(to bottom, #FFF9EF, #EAF7FC);
+  color: #333;
 }
 
 .invitation-container {

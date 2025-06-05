@@ -5,24 +5,6 @@ body {
   color: #333;
 }
 
-<style>
-.map-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  border-radius: 12px;
-  margin-top: 10px;
-}
-
-/* 카카오 지도 크기 조정 (반응형) */
-#daumRoughmapContainer {
-  width: 100% !important;
-  max-width: 100% !important;
-  height: 300px !important;
-}
-</style>
-
 .top-image {
   width: 100%;
   max-width: 480px;

@@ -24,7 +24,7 @@ body {
 .hero {
   text-align: center;
   padding: 40px 20px;
-  background: linear-gradient(to bottom right,#1D2A5B, #fff);
+  background: linear-gradient(to bottom right,#fff, #fff);
   border-radius: 12px;
 }
 

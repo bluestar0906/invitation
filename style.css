@@ -7,13 +7,13 @@ body {
 
 .top-image {
   width: 100%;
-  max-width: 480px;
+  max-width: 360px;
   height: auto;
   display: block;
   border-radius: 16px;
-  margin: 0 auto 20px;
+  margin: 0 auto
   margin-top: 30px;
-  padding: 40px;
+  padding: 0 40px;
 }
 
 .invitation-container {

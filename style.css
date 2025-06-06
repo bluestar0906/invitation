@@ -12,6 +12,8 @@ body {
   display: block;
   margin: 0 auto 20px;
   border-radius: 16px;
+  margin-top: 30px;
+  padding: 20px;
 }
 
 .invitation-container {
@@ -26,6 +28,7 @@ body {
   padding: 40px 20px;
   background: linear-gradient(to bottom right,#fff, #fff);
   border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
 .hero h1 {

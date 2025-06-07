@@ -1,15 +1,16 @@
 body {
   margin: 0;
-  font-family: 'Arial', 'Noto Sans KR', sans-serif;
-  background: linear-gradient(to bottom, #FFF9EF, #EAF7FC);
+  font-family: 'Spoqa Han Sans Neo', 'Noto Sans KR', sans-serif;
+  background: linear-gradient(to bottom, #fefcf9, #eaf4fb);
   color: #333;
+  line-height: 1.6;
 }
 
 .invitation-container {
   width: 100%;
-  max-width: 480px;
+  max-width: 460px;
   margin: 0 auto;
-  padding: 0 20px; /* 좌우 여백 */
+  padding: 0 24px;
   box-sizing: border-box;
 }
 
@@ -18,44 +19,62 @@ body {
   max-width: 360px;
   height: auto;
   display: block;
-  margin: 30px auto;
-  border-radius: 16px;
+  margin: 40px auto 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .hero {
   text-align: center;
-  padding: 40px 20px;
-  background: linear-gradient(to bottom right,#fff, #fff);
-  border-radius: 12px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  padding: 48px 24px;
+  background: linear-gradient(to bottom right, #ffffff, #f7f7f7);
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
   margin-top: 30px;
 }
 
 .hero h1 {
-  font-size: 2em;
+  font-size: 2.2em;
+  font-weight: bold;
   margin-bottom: 10px;
+  color: #222;
 }
 
 .names {
-  font-size: 1.5em;
-  font-weight: bold;
+  font-size: 1.4em;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 8px;
 }
 
 .date {
   font-size: 1.1em;
-  color: #666;
+  color: #777;
 }
 
 .details, .message, .contact {
   background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-  padding: 20px;
-  margin-top: 30px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  padding: 24px;
+  margin-top: 32px;
 }
 
 .details h2, .contact h2 {
   margin-top: 0;
+  font-size: 1.2em;
+  color: #222;
+}
+
+.message p {
+  font-size: 1em;
+  text-align: center;
+  color: #444;
+}
+
+.contact p {
+  font-size: 1em;
+  color: #444;
 }
 
 .footer {
@@ -66,10 +85,10 @@ body {
 }
 
 #daumRoughmapContainer1748937855766 {
-  margin: 30px auto 0 auto; /* 위쪽 30px, 좌우 자동 중앙 */
-  display: block;           /* block 요소로 만들어서 margin 적용 */
-  max-width: 360px;         /* 지도의 너비와 맞추기 */
+  margin: 30px auto 0 auto;
+  display: block;
+  max-width: 360px;
   width: 100%;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* 그림자 원하면 */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
-
